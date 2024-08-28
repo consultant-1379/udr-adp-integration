@@ -1,0 +1,10 @@
+name: junit-btraffic
+description: Run btraffic
+runner: junit
+mainClass: com.ericsson.renegadedb.integration.example.BTraffic
+params:
+  subscriber_range_start: 0
+  subscriber_range_end: 5000
+  traffic_duration: 30
+  traffic_tps: 1000
+  ldap_success_percentage: 30

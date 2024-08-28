@@ -1,0 +1,8 @@
+name: junit-btraffic-provision
+description: Provision btraffic subscribers
+runner: junit
+mainClass: com.ericsson.renegadedb.integration.example.InitialProvisioningBTraffic
+params:
+  subscriber_range_start: 0
+  subscriber_range_end: 5000
+  provisioning_time_limit: 180

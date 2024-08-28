@@ -1,0 +1,4 @@
+name: junit-common-profiles-provision
+description: Provision common profiles
+runner: junit
+mainClass: com.ericsson.renegadedb.integration.example.ProvisionCommonProfiles

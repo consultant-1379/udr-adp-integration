@@ -1,0 +1,29 @@
+---
+dependencies:
+- name: renegadedb-ldapfe
+  version: 0.1.0
+  repository: https://arm.rnd.ki.sw.ericsson.se/artifactory/proj-renegade-cpp-generic-local/helm/
+- name: renegadedb-cmagent
+  version: 0.2.0
+  repository: https://arm.rnd.ki.sw.ericsson.se/artifactory/proj-renegade-cpp-generic-local/helm/
+- name: log
+  version: 1.0.0
+  repository: https://arm.rnd.ki.sw.ericsson.se/artifactory/proj-renegade-cpp-generic-local/helm/
+- name: cm
+  version: 1.2.210
+  repository: https://arm.rnd.ki.sw.ericsson.se/artifactory/proj-adp-helm-dev-generic-local/cd/management/cm/cm/
+- name: renegadedb-msgbus
+  version: 0.2.0
+  repository: https://arm.rnd.ki.sw.ericsson.se/artifactory/proj-renegade-cpp-generic-local/helm/
+- name: renegadedb-dbservice
+  version: 0.1.0
+  repository: https://arm.rnd.ki.sw.ericsson.se/artifactory/proj-renegade-cpp-generic-local/helm/
+- name: renegadedb-load-fixed-entries
+  version: 0.2.0
+  repository: https://arm.rnd.ki.sw.ericsson.se/artifactory/proj-renegade-cpp-generic-local/helm/
+- name: renegadedb-load-config
+  version: 0.2.0
+  repository: https://arm.rnd.ki.sw.ericsson.se/artifactory/proj-renegade-cpp-generic-local/helm/
+- name: renegadedb-slamd
+  version: 0.0.1
+  repository: https://arm.rnd.ki.sw.ericsson.se/artifactory/proj-renegade-cpp-generic-local/helm/

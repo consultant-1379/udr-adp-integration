@@ -1,0 +1,11 @@
+name: ldap-btraffic-kpi
+description: Provision common profiles, btraffic subscribers and run btraffic
+runner: junit
+mainClass: com.ericsson.renegadedb.integration.example.BTrafficKPI
+params:
+  subscriber_range_start: 0
+  subscriber_range_end: 5000
+  traffic_duration: 30
+  provisioning_time_limit: 180
+  traffic_tps: 1000
+  ldap_success_percentage: 30

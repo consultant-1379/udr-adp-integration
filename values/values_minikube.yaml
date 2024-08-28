@@ -1,0 +1,7 @@
+renegadedb-ldapfe:
+  service:
+    replicas: 1
+  resources:
+    requests:
+      memory: null
+      cpu: null

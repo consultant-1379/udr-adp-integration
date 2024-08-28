@@ -1,0 +1,17 @@
+name: cucumber-btraffic
+description: "Run cucumber TC"
+runner: cucumber 
+mainClass: com.ericsson.renegadedb.integration.example.CucumberTest
+params: |
+  Feature: LDAP KPI
+
+  Background: A working Renegade system
+    Given I have a Renegade system provisioned with 5000 btraffic subscribers
+
+  Scenario: Run 100 TPS
+    When I offer 100 TPS btraffic for 30 seconds
+    Then I expect above 99% ldap success rate
+
+  Scenario: Run 1000 TPS
+    When I offer 1000 TPS btraffic for 30 seconds
+    Then I expect above 30% ldap success rate
